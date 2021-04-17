@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>zadanie</title>
+</head>
+<body>
+	<form>
+	<p>Имя:<input type="text" placeholder="Input some text here"></p>
+	<p>Фамилия:<input type="text" autofocus></p>
+	<p>Регион::<input type="text" required ></p>
+	<p>Email:<input type="email" ></p>
+	<p>Номер:<input type="text" pattern="[0-9]" ></p>
+	
+	<datalist id="colors">
+		<OPTION>red
+
+		
+		</OPTION>
+		<OPTION>orange</OPTION>
+		<OPTION>yellow</OPTION>
+		<OPTION>green</OPTION>
+		
+	</datalist>
+	<p>Autocomplete:<input type="text" list="colors">
+		
+	</p>
+	<p><input type="submit" value="submit"  ></p>
+
+</form>
+	<h2> видео</h2>
+
+<video width="500" height="300" controls>
+  <source src="demo.mp4" type="video/mp4">
+  </video>
+<p>
+ <audio controls>
+ 	 <source src="audio.mp3" type="audio/mp3">
+ </audio ></p>
+ <figure>
+	<img id="cat" src="cat.png" alt="cat image" data-ImageDescription="милая киска">
+
+	<figcaption>
+		<p>милая киска</p>
+	</figcaption>
+</figure>
+  <script type="text/javascript">
+	alert(document.getElementById("cat").getAttribute("data-ImageDescription"));
+</script> 
+<input type="range" min="1" max="1000" step="100">
+<p contenteditable="true" >Some paragraph!</p>
+<ul contenteditable="true">
+	<li>HTML</li>
+	<li>Css</li>
+	<li>JavaScript</li>
+	<li>PHP</li>
+</ul>
+
+</body>
+</html>
