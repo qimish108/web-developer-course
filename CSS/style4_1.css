@@ -1,0 +1,25 @@
+.first {background: green;
+
+
+padding: 20px;
+width: 450px;
+position: absolute;
+top: 10px;
+left: 10px;
+z-index: 2;
+}
+.second{background: yellow;
+
+
+padding: 20px;
+width: 450px;
+position: relative;
+left: 300px;
+top: 50px;
+z-index: 1;
+}
+/*.third{ background: pink;
+width: 500px;
+margin-left:  400px;
+padding: 20px;
+clear: both; }*/
